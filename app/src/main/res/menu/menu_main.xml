@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.basicactivity.MainActivity"
+    >
+    <item
+        android:id="@+id/serial"
+        android:orderInCategory="100"
+        android:title="Serial Image Download"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/parallel"
+        android:orderInCategory="100"
+        android:title="Parallel Image Download"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/clear"
+        android:orderInCategory="100"
+        android:title="clear images"
+        app:showAsAction="never" />
+</menu>
